@@ -11,3 +11,13 @@ You have to pass two objects to a routing function: Express HTTP Request object 
 
 SERVING STATIC FILES- most web apps contain static files that return the same response to all users.
 this can include: images, favicons, CSS stylesheets etc.
+Express allows you to define a single directory that contains static assets and returns any file that matches the URL path.
+
+callback function is a function that is passed as an arguement in another function and it is executed after the completion of that function.
+its a key concept in asynchronous operations such as reading files and making HTTP requests.
+
+EXPRESS MIDDLEWARE functions
+app.use() - used to define a static directory.
+Middleware functions run in the sequence defined in the code
+all Middleware functions receive three arguements: req, res, next
+next: is a callback that passes control to the next middleware function. next()
