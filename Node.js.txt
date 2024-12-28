@@ -1,1 +1,13 @@
 REPL - read-evaluate-print-loop
+
+Semantic Versioning MAJOR.MINOR.PATCH eg. 1.2.33
+MAJOR - major updates
+MINOR - minor updates doesn't affect backwards compatability
+PATCH - for bug fixes
+
+Routing - determines which functions Express executes when it receives a request for a specific URL such as / or /another/path
+
+You have to pass two objects to a routing function: Express HTTP Request object (req) and EXPRESS HTTP Response object (res)
+
+SERVING STATIC FILES- most web apps contain static files that return the same response to all users.
+this can include: images, favicons, CSS stylesheets etc.
